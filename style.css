@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 120vh;
+  position: relative;
+}
+.box {
+  height: 120vh;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  padding-top: 20px;
+  max-width: 70vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+nav img {
+  width: 9.24rem;
+  height: 4.5rem;
+  color: rgb(229, 9, 20);
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 75px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23;
+  padding: 0 40px;
+}
+.hero > :nth-child(1) {
+  text-align: center;
+  padding: 5px;
+  font-weight: 900;
+  font-size: 48px;
+}
+.hero > :nth-child(2) {
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 28px;
+}
+.hero > :nth-child(3) {
+  text-align: center;
+  padding: 6px;
+  font-weight: 400;
+  font-size: 23px;
+}
+.separation {
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+.btn {
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  cursor: pointer;
+}
+.btn-red {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  padding: 3px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.main input {
+  padding: 7px 101px 8px 14px;
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  border-radius: 5px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 2px solid rgba(246, 238, 238, 0.5);
+}
+.btn-red-sm {
+  background-color: rgb(229, 9, 20);
+  color: white;
+}
+.main nav button select {
+  background-color: rgba(23, 23, 23, 0.4);
+  color: white;
+  border: none;
+}
+.First {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.sec-img {
+  position: relative;
+}
+.sec-img img {
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+}
+.sec-img video {
+  position: absolute;
+  width: 30vw;
+  top: 55px;
+  left: 0px;
+}
+.First > div :first-child {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.First > div :nth-child {
+  font-size: 24px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+   
+}
+.faq h2{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+}
+.faq-box{
+    transition: all 0.2 ease-out;
+    display: flex;
+    background-color:  rgba(23, 23, 23, 0.9);
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 24px;
+    max-width: 70vw;
+    margin: 15px auto;
+    cursor: pointer;
+}
+.faq-box i {
+    align-items: center;
+    font-size: 30px;
+    padding-top: 3px;
+    font-weight: lighter;
+}
+.faq-box:hover{
+    background-color: rgb(43, 42, 42);
+}
+.hero-buttons-last{
+    display: flex;
+    gap: 12px;
+}
+.hero-buttons-last input{
+    padding: 7px 101px 8px 14px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+  }   
+footer{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    height: 400px;
+}
+footer a{
+    display: flex;
+    justify-content: space-evenly;
+    padding:8px;
+    flex-direction: column;
+    color: white;
+    font-size: 0.90rem;
+}
+footer button select{
+    background-color: rgba(23, 23, 23, 0.4);
+  color: white;
+  border: none;
+  padding-bottom: 3px;
+}
+.net{
+    padding-top: 40px;
+}
